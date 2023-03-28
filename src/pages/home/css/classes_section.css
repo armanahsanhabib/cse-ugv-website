@@ -1,0 +1,194 @@
+/* ========== Class Section ========== */
+
+.classes_section {
+    padding: 100px 0;
+}
+
+.classes_section .daily_class_container {
+    /* margin-top: 50px; */
+}
+
+/* ========== Daily Class ========== */
+
+.daily_class {
+    margin-bottom: 80px;
+}
+
+.daily_class:last-child {
+    margin-bottom: 0;
+}
+
+.daily_class .date {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ff6652;
+    margin-bottom: 10px;
+}
+
+.daily_class .date i {
+    color: #ff6652;
+    margin-right: 5px;
+}
+
+.daily_class .date_line {
+    border: 2px solid #ccc;
+}
+
+.daily_class .class_card_container {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 35px;
+}
+
+/* ========== Class Card ========== */
+
+.class_card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.class_card .banar {
+    /* position: absolute;
+    content: "";
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0; */
+}
+
+.class_card .banar img {
+    display: block;
+}
+
+.class_card .class_details {
+    padding: 15px;
+}
+
+.class_card .class_details .sub_code {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: #9c4df4;
+}
+
+.class_card .class_details .sub_code i {
+    color: #9c4df4;
+}
+
+.class_card .class_details .sub_name {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.class_card .class_details .sub_name .sub_icon {
+    margin-right: 10px;
+}
+
+.class_card .class_details .class_time {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.class_card .class_details .time {
+    color: #ff6652;
+}
+
+.class_card .class_details .class_time .time_icon {
+    margin-right: 8px;
+    color: #ff6652;
+}
+
+.class_card .class_details .class_time .time_icon i {
+    color: #ff6652;
+}
+
+.class_card hr {
+    border: 1px solid #eee;
+}
+
+.class_card .class_details .info {
+    margin: 15px 0;
+    text-align: center;
+}
+
+/* ========== Class Button ========== */
+
+.class_button {
+    text-align: center;
+}
+
+.class_button a {
+    background-color: #9c4df4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.class_button a:hover {
+    background-color: #ff6652;
+    font-weight: 600;
+}
+
+/*======== Responsive: Laptop < 1024px ========*/
+
+@media screen and (max-width: 1024px) {
+    .daily_class .class_card_container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/*======== Responsive: Tablet < 768px ========*/
+
+@media screen and (max-width: 768px) {
+    .daily_class .class_card_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+}
+
+/*======== Responsive: Tablet < 425px ========*/
+
+@media screen and (max-width: 425px) {
+    .classes_section {
+        padding: 50px 0;
+    }
+
+    .daily_class .date {
+        font-size: 20px;
+        margin-bottom: 7px;
+        /* text-align: center; */
+    }
+
+    .daily_class .date_line {
+        border: 2px solid #ff6652;
+    }
+
+    .daily_class .class_card_container {
+        grid-template-columns: 1fr;
+    }
+
+    .class_card {
+        margin: 0 20px;
+    }
+
+    .class_card .class_details {
+        padding: 20px;
+    }
+
+    .section_title {
+        margin-bottom: 50px;
+    }
+
+    .section_title::after {
+        display: none;
+    }
+}

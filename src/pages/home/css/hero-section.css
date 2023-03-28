@@ -1,0 +1,87 @@
+.hero_section {
+    background: rgb(247, 245, 250);
+    background: radial-gradient(circle, rgba(247, 245, 250, 1) 5%, rgba(242, 232, 243, 1) 36%, rgba(246, 244, 249, 1) 87%);
+}
+
+.hero_section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.hero_section .text_area {
+    width: 50%;
+}
+
+.hero_section .img_area {
+    width: 40%;
+}
+
+.hero_section .text_area .thanks {
+    padding: 12px 18px;
+    background-color: #fff;
+    color: #ff6652;
+    display: inline-block;
+    border-radius: 8px;
+    /* font-size: 18px; */
+    font-weight: 500;
+}
+
+.hero_section .text_area h1 {
+    font-size: 68px;
+}
+
+.hero_section .text_area h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.hero_section .text_area p {
+    margin-bottom: 25px;
+}
+
+.hero_section .text_area .btn_primary {
+    /* font-size: 18px; */
+    padding: 15px 35px;
+    margin-right: 10px;
+}
+
+.hero_section .img_area img {
+    height: 600px;
+}
+
+/*======== Responsive: Laptop < 1024px ========*/
+
+@media screen and (max-width: 1024px) {
+    .hero_section .img_area {
+        display: none;
+    }
+
+    .hero_section .text_area {
+        width: 100%;
+    }
+}
+
+/*======== Responsive: Mobile < 425px ========*/
+
+@media screen and (max-width: 425px) {
+    .hero_section .text_area h1 {
+        font-size: 40px;
+    }
+
+    .hero_section .text_area .thanks {
+        padding: 10px 15px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .hero_section .text_area h3 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .hero_section .text_area .btn_primary {
+        padding: 10px 25px;
+    }
+}

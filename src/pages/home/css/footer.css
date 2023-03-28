@@ -1,0 +1,38 @@
+footer {
+    background-color: #0a033c;
+}
+
+footer * {
+    color: #fff;
+}
+
+footer .container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer .logo_area img {
+    height: 30px;
+    width: auto;
+    margin-bottom: 5px;
+}
+
+footer .logo_area h3 {
+    font-weight: 500;
+}
+
+/*======== Responsive: Mobile < 425px ========*/
+
+@media screen and (max-width: 425px) {
+    footer .container {
+        padding: 40px 0;
+    }
+
+    footer .logo_area h3 {
+        font-size: 16px;
+    }
+
+    footer .logo_area img {
+        height: 25px;
+    }
+}
