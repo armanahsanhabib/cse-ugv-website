@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cse-ugv-website/static/css/main.dfe3b501.css",
+    "main.js": "/cse-ugv-website/static/js/main.b76e7172.js",
+    "static/js/787.ccf5c294.chunk.js": "/cse-ugv-website/static/js/787.ccf5c294.chunk.js",
+    "static/media/hero-image.png": "/cse-ugv-website/static/media/hero-image.da575e65909fe1c6e69b.png",
+    "static/media/cse101.JPG": "/cse-ugv-website/static/media/cse101.15d2c94a496a37eed284.JPG",
+    "static/media/cse106.JPG": "/cse-ugv-website/static/media/cse106.20018c62532cdb9c3d4d.JPG",
+    "static/media/cse105.JPG": "/cse-ugv-website/static/media/cse105.3bd08ed7f49cd3bd46ec.JPG",
+    "static/media/phys1015.JPG": "/cse-ugv-website/static/media/phys1015.f6981eaf7435ae01ac2e.JPG",
+    "static/media/cse103.JPG": "/cse-ugv-website/static/media/cse103.ff3bfcc6b190ef010f07.JPG",
+    "static/media/phys1014.JPG": "/cse-ugv-website/static/media/phys1014.ef39dd689e3c9c576199.JPG",
+    "static/media/mathI101.JPG": "/cse-ugv-website/static/media/mathI101.beefb586517db07997a6.JPG",
+    "static/media/logo-wh.png": "/cse-ugv-website/static/media/logo-wh.e021c005fd65f629e82c.png",
+    "static/media/logo.png": "/cse-ugv-website/static/media/logo.87c8c662f5b026592991.png",
+    "index.html": "/cse-ugv-website/index.html",
+    "main.dfe3b501.css.map": "/cse-ugv-website/static/css/main.dfe3b501.css.map",
+    "main.b76e7172.js.map": "/cse-ugv-website/static/js/main.b76e7172.js.map",
+    "787.ccf5c294.chunk.js.map": "/cse-ugv-website/static/js/787.ccf5c294.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfe3b501.css",
+    "static/js/main.b76e7172.js"
+  ]
+}
